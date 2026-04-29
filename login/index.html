@@ -21,23 +21,24 @@
     <section class="wrapper">
       <div class="form signup">
         <header>Daftar</header>
-        <form action="#">
-          <input type="text" placeholder="Nama Lengkap" required />
+        <form action="#" method="post" id="loginFrom">
+          <input type="text" class="form-control" placeholder="Nama Lengkap" id="Nama Lengkap" required />
           <input type="text" placeholder="Alamat Email" required />
-          <input type="password" placeholder="Sandi" required />
+          <input type="password" placeholder="password"/>
           <div class="checkbox">
             <input type="checkbox" id="signupCheck" />
             <label for="signupCheck">Mengizinkan Data</label>
           </div>
           <input type="submit" value="Daftar" />
+            <p id="message"></p>
         </form>
       </div>
 
       <div class="form login">
         <header>Masuk</header>
-        <form action="#">
+        <form action="#" method="post" id="loginFrom">
           <input type="text" placeholder="Alamat Email" required />
-          <input type="password" placeholder="Sandi" required />
+          <input type="password" class="form-control" placeholder="password" required id="password/>
           <a href="#">Lupa sandi?</a>
           <input type="submit" value="Masuk" />
           <div id="alertBox" class="alert" style="display:none;"></div>
@@ -59,6 +60,7 @@
       </script>
     </section>
     <script src="js/login.js"></script>
+  
     <script src="js/register.js" defer></script>
   </body>
 </html>
