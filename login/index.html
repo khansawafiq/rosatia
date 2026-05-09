@@ -23,26 +23,13 @@
         <header>masuk</header>
         <form action="#" method="post" id="loginForm">
           <input type="text" placeholder="username" required/>
-          <input type="Sandi" class="form-control" placeholder="password" required id="password"/>
+          <input type="Sandi" class="form-control" placeholder="password" id="password" required/>
           <a href="#">lupa password?</a>
           <button type="submit">masuk</button>
           <div id="alertBox" class="alert" style="display:none;"></div>
+          <p>belum punya akun? <a href="register.html">daftar</a></p>
         </form>
       </div>
-      
-
-      <script>
-        const wrapper = document.querySelector(".wrapper"),
-          signupHeader = document.querySelector(".signup header"),
-          loginHeader = document.querySelector(".login header");
-
-        loginHeader.addEventListener("click", () => {
-          wrapper.classList.add("active");
-        });
-        signupHeader.addEventListener("click", () => {
-          wrapper.classList.remove("active");
-        });
-      </script>
     </section>
     <script src="js/login.js"></script>
   </body>
