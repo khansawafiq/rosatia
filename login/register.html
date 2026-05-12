@@ -15,24 +15,26 @@
 
     <title>Login & Signup Form HTML CSS | CodingNepal</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="../custom-scripts.js" defer></script>
   </head>
   <body>
     <section class="wrapper">
-      <div class="form signup">
-        <header>Signup</header>
-        <form id="registerForm">
-          <input type="text" id="username" placeholder="Full name" required />
-          <input type="text" id="email" placeholder="Email address" required />
-          <input type="password" id="password" placeholder="Password" required />
-          <p id="message"></p>
-          <div class="checkbox">
-            <input type="checkbox" id="signupCheck" />
-            <label for="signupCheck">I accept all terms & conditions</label>
-          </div>
-          <input type="submit" value="Signup" />
-        </form>
+      <div class="form signup" style="z-index: 100; position: relative;">
+  <header>Signup</header>
+  <form id="registerForm">
+    <input type="text" id="username" placeholder="Full name" required />
+    <input type="text" id="email" placeholder="Email address" required />
+    <input type="password" id="password" placeholder="Password" required />
+    
+    <p id="message" style="color: red; font-size: 14px; margin: 10px 0;"></p>
+
+    <div class="checkbox">
+      <input type="checkbox" id="signupCheck" required />
+      <label for="signupCheck" style="cursor: pointer;">I accept all terms & conditions</label>
+    </div>
+    <input type="submit" value="Signup" />
+  </form>
       </div>
+      
 
       <div class="form login">
         <header>Login</header>
