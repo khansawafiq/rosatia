@@ -40,10 +40,6 @@ body {
   cursor: pointer;
 }
 
-.form.login header {
-  color: #fff;
-}
-
 .wrapper.active .form.login header {
   opacity: 1;
 }
@@ -122,10 +118,6 @@ form input[type="submit"] {
 
 .form.signup{
   width: 100%;
-}
-
-.form.signup header{
-  color: #fff;
 }
 
 .alert{
