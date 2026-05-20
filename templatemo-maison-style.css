@@ -1490,6 +1490,10 @@ a {
 	text-align: center;
 }
 
+.mobile-nav-cta > .btn-primary{
+	text-align: center;
+}
+
 .mobile-overlay {
 	position: fixed;
 	inset: 0;
