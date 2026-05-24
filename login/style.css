@@ -84,8 +84,11 @@ form .checkbox {
 .checkbox input[type="checkbox"] {
   height: 16px;
   width: 16px;
-  accent-color: #fff;
+  accent-color: #342519;
   cursor: pointer;
+
+  appearance: auto;
+  -webkit-appearance: checkbox;
 }
 
 form .checkbox label {
