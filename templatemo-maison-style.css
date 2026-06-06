@@ -716,7 +716,7 @@ a {
 
 .craft-stats {
 	position: absolute;
-	bottom: -40px;
+	bottom: -80px;
 	left: var(--space-lg);
 	right: var(--space-lg);
 	display: flex;
